@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 76px;
+}
+.first{
+    height: 514px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.image{
+    height: 514px;
+    width: 512px;
+}
+.child{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo{
+    width: 512px;
+    }
+.off{
+    height: 35px;
+}
+.capi{
+    height: 126px;
+    margin-top: 50px;
+    display: flex;
+}
+h1{
+    color: #000;
+    font-size: 58px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text{
+    height: 48px;
+    margin-top: 27px;
+    font-style: normal;
+    line-height: 19px;
+    width:320px;
+    display:flex;
+}
+.explore{
+    background-color: #ffe36a;
+    color: #ffffff;
+    margin-top: 35px;
+    height: 50px;
+    width:129px ;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 19px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:149px;
+    background-color: #149f39;
+    color: #ffffff;
+    height: 100%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.coupon{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.discount{
+    margin-top: 40px;
+    width:980px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quotes{
+    margin-left: 15px;
+}
+.healthy{
+    width:320px;
+    display: flex;
+}
+.boucher{
+    width: 293px;
+    display: flex;
+    margin-right: 4px;
+    justify-content: space-between;
+}
+.firs{
+    margin-left: 4px;
+    width: 293px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.our{
+    margin-top:70PX;
+    height: 110px;
+    width:287px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.me{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #149f39;
+}
+
+.plo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400px;
+    color: #000;
+}
+#me{
+    margin: 4px;
+    color: #ffffff;
+}
+.gallery{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 890px;
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "img1 img1 img2 img3"
+                 "img1 img1 img2 img4"
+                 "img5 img6 img7 img4";
+                 grid-gap: 20px;
+}
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.img4{
+    grid-area: img4;
+}
+
+.img5{
+    grid-area: img5;
+}
+
+.img6{
+    grid-area: img6;
+}
+
+.img7{
+    grid-area: img7;
+}
+.footer{
+    height: 322px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.contain{
+    margin-top: 27px;
+    height: 220px;
+    display: flex;
+    gap: 95px;
+}
+.logo{
+    width: 126px;
+    height: 220px;
+    background-color: #FFF;
+}
+
+.Main{
+    width: 121px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.join{
+    width: 172px;
+    height: 220px;
+}
+
+.support{
+    width: 265px;
+    height: 220px;
+}
+.main{
+    font-size: 18px;
+    color: #565656;
+    font-weight: 600px;
+    line-height: 19px;
+}
+.subha{
+    color: #000;
+    font-size: 14px;
+    margin-top:35px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.list{
+    height:120px;
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 50px;
+    }
+
+    .first {
+        height: auto;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .image {
+        height: auto;
+        width: 100%;
+    }
+
+    .child {
+        height: auto;
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .bo {
+        width: 100%;
+    }
+
+    .off {
+        height: 30px;
+        display: flex;
+        align-items: center; 
+    }
+
+    .capi {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .text {
+        height: auto;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .explore {
+        margin-top: 20px;
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .all {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .discount {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firs, .healthy, .boucher {
+        width: 100%;
+        margin: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quotes {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .our {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .me {
+        font-size: 20px;
+    }
+
+    .plo {
+        font-size: 28px;
+        display: flex;
+        align-items: center; 
+    }
+
+    #me {
+        margin: 4px;
+        color: #ffffff;
+    }
+
+    .gallery {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        gap: 5px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .contain {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        text-align: center;
+        background: #fff0db; 
+    }
+
+    .logo, .Main, .join, .support {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        font-size: 16px;
+    }
+
+    .subha {
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    .list {
+        height: auto;
+    }
+}
